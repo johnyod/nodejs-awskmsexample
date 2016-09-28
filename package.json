@@ -1,0 +1,33 @@
+{
+  "name": "empdataawskms",
+  "version": "1.0.0",
+  "description": "Acess Employee data using CRUD operations",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rss04/nodejsawskmsexample.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "oracledb",
+    "REST",
+    "express",
+    "aws-sdk"
+  ],
+  "author": "S Rayaprolu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rss04/nodejsawskmsexample/issues"
+  },
+  "homepage": "https://github.com/rss04/nodejsawskmsexample#readme",
+  "dependencies": {
+    "aws-sdk": "^2.6.4",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "oracledb": "^1.11.0"
+  }
+}
